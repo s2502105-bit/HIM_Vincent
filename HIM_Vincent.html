@@ -1,0 +1,188 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Basic HTML Sample</title>
+        <style>
+            body {
+                background: green;
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+            .header {
+                background-color: white;
+                width: 100px;
+            }
+            #title {
+                color: red;
+                font-size: 20px;
+                margin-left: 20px;
+            }
+            #title2 {
+                color: yellow;
+                font-size: 10px;
+                background: orange;
+                padding: 30px;
+                margin: 20px;
+                display: inline-block;
+            }
+            nav {
+                display: flex;
+                justify-content: flex-end;
+                background-color: #fff;
+                padding: 30px 0px;
+            }
+            nav a {
+                color: #000;
+                padding-right: 20px;
+                text-decoration: none;
+            }
+            nav a:hover {
+                text-decoration: underline;
+            }
+            
+        
+            .flex {
+                display: flex;
+                background-image: url('image_515165.png'); 
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover; 
+                margin: 20px;
+                padding: 20px;
+                border-radius: 5px;
+            }
+            
+        
+            .flex div {
+                background: rgba(206, 206, 206, 0.85); 
+                margin: 20px;
+                padding: 40px;
+                border-radius: 5px;
+                flex: 1; 
+            }
+            #textarea1 {
+                height: 125px;
+                width: 100%;
+            }
+            .main-content {
+                padding: 20px;
+                color: white;
+            }
+            iframe {
+                border: none;
+                margin-top: 10px;
+                width: 100%;
+                height: 450px; 
+            }
+        </style>
+    </head>
+    <body>
+
+        <nav>
+            <a href="index.php">Home</a>
+            <a href="profile.php">Profile</a>
+            <a href="maps.php">Maps</a>
+            <a href="contactus.php">Contact Us</a>
+            <a href="">About Us</a>
+        </nav>
+
+        <div class="main-content">
+            <p id="title">Hello World</p>
+            <p id="title2">BSIT 1C</p>
+            
+            <br/>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1yj-e2MMoLAlUCP97-T5-gvvmqboyIHa-WA&s" alt="Sample Image"/>
+            <br/><br/>
+
+            <div>
+                <iframe src="https://maps.google.com/maps?q=University%20of%20St.%20La%20Salle%20Bacolod&t=&z=16&ie=UTF-8&iwloc=&output=embed"></iframe>
+            </div>
+        </div>
+
+        <div class="flex">
+            <div class="container">
+                <p><strong>Contact Info</strong></p>
+                <input type="text" placeholder="Username"/> <br/> <br/>
+                <input type="password" placeholder="Password"/> <br/> <br/>
+                <input type="date"/> <br/> <br/>
+                <input type="number" placeholder="Phone Number"/> <br/> <br/>
+                <input type="text" placeholder="Lastname"/> <br/> <br/>
+                <input type="submit" value="Submit"/>
+            </div>
+            <div class="container2">
+                <p><strong>Message</strong></p>
+                <textarea id="textarea1" placeholder="Write your message here..."></textarea>
+            </div>
+            <div class="container3">
+                <button>Send Email</button>
+            </div>
+        </div>
+        </style>
+    </head>
+
+    </body>
+
+    </body>
+    </html>
+
+<html>
+    <head>
+        <title>bleble</title>
+        <body>
+            <p id="text-color-red">This is a sample text</p>
+            <p id="text-underline">This is a sample text 2</p>
+
+            <video width="320" height="240" controls>
+                <source src="c:\Users\2502105\Downloads\HIM - Right Here In My Arms (Official Video).mp4" type="video/mp4">
+            </video>
+             <br>
+             <audio controls>
+                <source src="c:\Users\2502105\Downloads\HIM - Right Here In My Arms (Official Video).mp3" type="audio/mpeg">
+                </audio><br>
+                <script>
+                    alert('CHIGGA');
+                    document.getElementById("text-color-red"). style.color = "red";
+                    document.getElementById("text-underline"). style.textDecoration = "underline";
+                </script>
+                <table border="1" class="table">
+                    <th>No.     </th>
+                    <th>Artist        </th>
+                    <th>Album       </th>
+                    <th>Song        </th>
+                    <th>Play        </th>
+                    <tr>
+                        <td>1              </td>
+                        <td>HIM            </td>
+                        <td>Strongroom Mix </td>
+                        <td>Right Here In My Arms</td>
+                        <td>         
+                            <audio controls>
+                <source src="c:\Users\2502105\Downloads\HIM - Right Here In My Arms (Official Video).mp3" type="audio/mpeg">
+                            </td>
+            </audio>
+                    </tr>
+                <tr>
+                <tr border="2" class="tr">
+                    <th>No.     </th>
+                    <th>Artist  </th>
+                    <th>Album   </th>
+                    <th>Song    </th>
+                    <th>Play    </th>
+                    <tr>
+                     <td>2         </td>
+                    <td>HIM         </td>
+                     <td>Razor Blade        </td>
+                    <td>Join Me in Death</td>
+                     <td>         
+                    <audio controls>
+                <source src="c:\Users\2502105\Downloads\HIM - Join Me In Death.mp3" type="audio/mpeg">
+                            </td>
+            </audio>
+                    </tr>
+                </table>
+        </body>
+    </head>
+</html>
